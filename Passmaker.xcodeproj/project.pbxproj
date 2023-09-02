@@ -44,6 +44,7 @@
 		D81564DA2AA3902C0010B004 /* PassmakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassmakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81564DE2AA3902C0010B004 /* PassmakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerUITests.swift; sourceTree = "<group>"; };
 		D81564E02AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D81564ED2AA394480010B004 /* Passmaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Passmaker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		D81564C22AA3902B0010B004 /* Passmaker */ = {
 			isa = PBXGroup;
 			children = (
+				D81564ED2AA394480010B004 /* Passmaker.entitlements */,
 				D81564C32AA3902B0010B004 /* PassmakerApp.swift */,
 				D81564C52AA3902B0010B004 /* ContentView.swift */,
 				D81564C72AA3902C0010B004 /* Assets.xcassets */,
@@ -414,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Passmaker/Passmaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Passmaker/Preview Content\"";
@@ -443,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Passmaker/Passmaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Passmaker/Preview Content\"";
