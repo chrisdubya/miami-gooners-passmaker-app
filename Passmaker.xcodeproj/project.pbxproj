@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81564C42AA3902B0010B004 /* PassmakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81564C32AA3902B0010B004 /* PassmakerApp.swift */; };
+		D81564C62AA3902B0010B004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81564C52AA3902B0010B004 /* ContentView.swift */; };
+		D81564C82AA3902C0010B004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81564C72AA3902C0010B004 /* Assets.xcassets */; };
+		D81564CB2AA3902C0010B004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81564CA2AA3902C0010B004 /* Preview Assets.xcassets */; };
+		D81564D52AA3902C0010B004 /* PassmakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81564D42AA3902C0010B004 /* PassmakerTests.swift */; };
+		D81564DF2AA3902C0010B004 /* PassmakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81564DE2AA3902C0010B004 /* PassmakerUITests.swift */; };
+		D81564E12AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81564E02AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81564D12AA3902C0010B004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81564B82AA3902B0010B004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81564BF2AA3902B0010B004;
+			remoteInfo = Passmaker;
+		};
+		D81564DB2AA3902C0010B004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81564B82AA3902B0010B004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81564BF2AA3902B0010B004;
+			remoteInfo = Passmaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81564C02AA3902B0010B004 /* Passmaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passmaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81564C32AA3902B0010B004 /* PassmakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerApp.swift; sourceTree = "<group>"; };
+		D81564C52AA3902B0010B004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D81564C72AA3902C0010B004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81564CA2AA3902C0010B004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D81564D02AA3902C0010B004 /* PassmakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassmakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81564D42AA3902C0010B004 /* PassmakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerTests.swift; sourceTree = "<group>"; };
+		D81564DA2AA3902C0010B004 /* PassmakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassmakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81564DE2AA3902C0010B004 /* PassmakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerUITests.swift; sourceTree = "<group>"; };
+		D81564E02AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassmakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81564BD2AA3902B0010B004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564CD2AA3902C0010B004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564D72AA3902C0010B004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81564B72AA3902B0010B004 = {
+			isa = PBXGroup;
+			children = (
+				D81564C22AA3902B0010B004 /* Passmaker */,
+				D81564D32AA3902C0010B004 /* PassmakerTests */,
+				D81564DD2AA3902C0010B004 /* PassmakerUITests */,
+				D81564C12AA3902B0010B004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81564C12AA3902B0010B004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81564C02AA3902B0010B004 /* Passmaker.app */,
+				D81564D02AA3902C0010B004 /* PassmakerTests.xctest */,
+				D81564DA2AA3902C0010B004 /* PassmakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81564C22AA3902B0010B004 /* Passmaker */ = {
+			isa = PBXGroup;
+			children = (
+				D81564C32AA3902B0010B004 /* PassmakerApp.swift */,
+				D81564C52AA3902B0010B004 /* ContentView.swift */,
+				D81564C72AA3902C0010B004 /* Assets.xcassets */,
+				D81564C92AA3902C0010B004 /* Preview Content */,
+			);
+			path = Passmaker;
+			sourceTree = "<group>";
+		};
+		D81564C92AA3902C0010B004 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D81564CA2AA3902C0010B004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D81564D32AA3902C0010B004 /* PassmakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D81564D42AA3902C0010B004 /* PassmakerTests.swift */,
+			);
+			path = PassmakerTests;
+			sourceTree = "<group>";
+		};
+		D81564DD2AA3902C0010B004 /* PassmakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D81564DE2AA3902C0010B004 /* PassmakerUITests.swift */,
+				D81564E02AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift */,
+			);
+			path = PassmakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81564BF2AA3902B0010B004 /* Passmaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81564E42AA3902C0010B004 /* Build configuration list for PBXNativeTarget "Passmaker" */;
+			buildPhases = (
+				D81564BC2AA3902B0010B004 /* Sources */,
+				D81564BD2AA3902B0010B004 /* Frameworks */,
+				D81564BE2AA3902B0010B004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passmaker;
+			productName = Passmaker;
+			productReference = D81564C02AA3902B0010B004 /* Passmaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81564CF2AA3902C0010B004 /* PassmakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81564E72AA3902C0010B004 /* Build configuration list for PBXNativeTarget "PassmakerTests" */;
+			buildPhases = (
+				D81564CC2AA3902C0010B004 /* Sources */,
+				D81564CD2AA3902C0010B004 /* Frameworks */,
+				D81564CE2AA3902C0010B004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81564D22AA3902C0010B004 /* PBXTargetDependency */,
+			);
+			name = PassmakerTests;
+			productName = PassmakerTests;
+			productReference = D81564D02AA3902C0010B004 /* PassmakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81564D92AA3902C0010B004 /* PassmakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81564EA2AA3902C0010B004 /* Build configuration list for PBXNativeTarget "PassmakerUITests" */;
+			buildPhases = (
+				D81564D62AA3902C0010B004 /* Sources */,
+				D81564D72AA3902C0010B004 /* Frameworks */,
+				D81564D82AA3902C0010B004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81564DC2AA3902C0010B004 /* PBXTargetDependency */,
+			);
+			name = PassmakerUITests;
+			productName = PassmakerUITests;
+			productReference = D81564DA2AA3902C0010B004 /* PassmakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81564B82AA3902B0010B004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D81564BF2AA3902B0010B004 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D81564CF2AA3902C0010B004 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D81564BF2AA3902B0010B004;
+					};
+					D81564D92AA3902C0010B004 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D81564BF2AA3902B0010B004;
+					};
+				};
+			};
+			buildConfigurationList = D81564BB2AA3902B0010B004 /* Build configuration list for PBXProject "Passmaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81564B72AA3902B0010B004;
+			productRefGroup = D81564C12AA3902B0010B004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81564BF2AA3902B0010B004 /* Passmaker */,
+				D81564CF2AA3902C0010B004 /* PassmakerTests */,
+				D81564D92AA3902C0010B004 /* PassmakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81564BE2AA3902B0010B004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81564CB2AA3902C0010B004 /* Preview Assets.xcassets in Resources */,
+				D81564C82AA3902C0010B004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564CE2AA3902C0010B004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564D82AA3902C0010B004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81564BC2AA3902B0010B004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81564C62AA3902B0010B004 /* ContentView.swift in Sources */,
+				D81564C42AA3902B0010B004 /* PassmakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564CC2AA3902C0010B004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81564D52AA3902C0010B004 /* PassmakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81564D62AA3902C0010B004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81564E12AA3902C0010B004 /* PassmakerUITestsLaunchTests.swift in Sources */,
+				D81564DF2AA3902C0010B004 /* PassmakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D81564D22AA3902C0010B004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81564BF2AA3902B0010B004 /* Passmaker */;
+			targetProxy = D81564D12AA3902C0010B004 /* PBXContainerItemProxy */;
+		};
+		D81564DC2AA3902C0010B004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81564BF2AA3902B0010B004 /* Passmaker */;
+			targetProxy = D81564DB2AA3902C0010B004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D81564E22AA3902C0010B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D81564E32AA3902C0010B004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81564E52AA3902C0010B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Passmaker/Preview Content\"";
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.Passmaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81564E62AA3902C0010B004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Passmaker/Preview Content\"";
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.Passmaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D81564E82AA3902C0010B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.PassmakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passmaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Passmaker";
+			};
+			name = Debug;
+		};
+		D81564E92AA3902C0010B004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.PassmakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passmaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Passmaker";
+			};
+			name = Release;
+		};
+		D81564EB2AA3902C0010B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.PassmakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passmaker;
+			};
+			name = Debug;
+		};
+		D81564EC2AA3902C0010B004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3K8RWSVKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miamigooners.PassmakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passmaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81564BB2AA3902B0010B004 /* Build configuration list for PBXProject "Passmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81564E22AA3902C0010B004 /* Debug */,
+				D81564E32AA3902C0010B004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81564E42AA3902C0010B004 /* Build configuration list for PBXNativeTarget "Passmaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81564E52AA3902C0010B004 /* Debug */,
+				D81564E62AA3902C0010B004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81564E72AA3902C0010B004 /* Build configuration list for PBXNativeTarget "PassmakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81564E82AA3902C0010B004 /* Debug */,
+				D81564E92AA3902C0010B004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81564EA2AA3902C0010B004 /* Build configuration list for PBXNativeTarget "PassmakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81564EB2AA3902C0010B004 /* Debug */,
+				D81564EC2AA3902C0010B004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81564B82AA3902B0010B004 /* Project object */;
+}
